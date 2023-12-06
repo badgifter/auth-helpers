@@ -1,12 +1,182 @@
 # @supabase/auth-helpers-nextjs
 
-## 0.6.1
+## 0.8.7
 
 ### Patch Changes
 
-- Updated dependencies [04a7249]
-- Updated dependencies [04a7249]
-  - @supabase/auth-helpers-shared@0.3.4
+- f7e5c2d: Revert cookie name to storage key change
+- Updated dependencies [f7e5c2d]
+  - @supabase/auth-helpers-shared@0.6.3
+
+## 0.8.6
+
+### Patch Changes
+
+- 5893215: Update storage key name with cookie name
+- Updated dependencies [5893215]
+  - @supabase/auth-helpers-shared@0.6.2
+
+## 0.8.5
+
+### Patch Changes
+
+- 7abfe9b: Fix header and cookie trying to read undefined response body
+
+## 0.8.4
+
+### Patch Changes
+
+- Updated dependencies [841fce0]
+  - @supabase/auth-helpers-shared@0.6.1
+
+## 0.8.3
+
+### Patch Changes
+
+- Updated dependencies [9fa8f2b]
+  - @supabase/auth-helpers-shared@0.6.0
+
+## 0.8.2
+
+### Patch Changes
+
+- c8a121d: include cookie options for deleteCookie
+
+## 0.8.1
+
+### Patch Changes
+
+- dfff00a: Remove the appending of a cookie to the response
+
+## 0.8.0
+
+### Minor Changes
+
+- c48bb87: Remove max-age option from cookieOptions
+
+### Patch Changes
+
+- Updated dependencies [c48bb87]
+  - @supabase/auth-helpers-shared@0.5.0
+
+## 0.7.4
+
+### Patch Changes
+
+- 8c77550: Fix type for next.js cookies and headers functions
+
+## 0.7.3
+
+### Patch Changes
+
+- 1619e93: Add cookie options to set cookie for route handler
+
+## 0.7.2
+
+### Patch Changes
+
+- d33aa1b: Upgrade patch version of Next.js to fix TS def for `cookies().set()`
+- Updated dependencies [97e5541]
+  - @supabase/auth-helpers-shared@0.4.1
+
+## 0.7.1
+
+### Patch Changes
+
+- b20cc32: Allow user to opt out of singleton pattern for Client Components
+
+## 0.7.0
+
+### Minor Changes
+
+- 65bf8d4: Add cookie storage adapter per library following a shared storage adapter
+- 65bf8d4: Add full server side support to auth helpers through PKCE
+
+### Patch Changes
+
+- 165ba70: Fix "Failed to parse cookie string" bug in middleware storage
+- a128b9e: Fix typedefs and add deprecated functions for App Router createClient functions
+- d46c2ed: fix cookie saving in middleware/routeHandler
+- 067402a: Set cookie header to make new session from middleware available to server component
+- 66b13b9: simplifying defaults for storage adapter
+- 008a08c: Implement singleton pattern for createClientComponentClient to simplify implementation
+- d90866f: [BREAKING CHANGES]: Renamed createBrowserSupabaseClient to createPagesBrowserClient, createServerSupabaseClient to createPagesServerClient and createMiddlewareSupabaseClient to createMiddlewareClient
+- 1086021: Upgrade Next.js and remove custom type for WritableRequestCookies
+- Updated dependencies [65bf8d4]
+- Updated dependencies [353be76]
+- Updated dependencies [56db807]
+- Updated dependencies [56db807]
+- Updated dependencies [66b13b9]
+- Updated dependencies [65bf8d4]
+  - @supabase/auth-helpers-shared@0.4.0
+
+## 0.7.0-next.8
+
+### Patch Changes
+
+- a128b9e: Fix typedefs and add deprecated functions for App Router createClient functions
+
+## 0.7.0-next.7
+
+### Patch Changes
+
+- 067402a: Set cookie header to make new session from middleware available to server component
+- 008a08c: Implement singleton pattern for createClientComponentClient to simplify implementation
+- 1086021: Upgrade Next.js and remove custom type for WritableRequestCookies
+
+## 0.7.0-next.6
+
+### Patch Changes
+
+- d90866f: [BREAKING CHANGES]: Renamed createBrowserSupabaseClient to createPagesBrowserClient, createServerSupabaseClient to createPagesServerClient and createMiddlewareSupabaseClient to createMiddlewareClient
+
+## 0.7.0-next.5
+
+### Patch Changes
+
+- d46c2ed: fix cookie saving in middleware/routeHandler
+
+## 0.7.0-next.4
+
+### Patch Changes
+
+- 165ba70: Fix "Failed to parse cookie string" bug in middleware storage
+
+## 0.7.0-next.3
+
+### Patch Changes
+
+- Updated dependencies [56db807]
+- Updated dependencies [56db807]
+  - @supabase/auth-helpers-shared@0.4.0-next.3
+
+## 0.7.0-next.2
+
+### Patch Changes
+
+- Updated dependencies [353be76]
+  - @supabase/auth-helpers-shared@0.4.0-next.2
+
+## 0.7.0-next.1
+
+### Patch Changes
+
+- 66b13b9: simplifying defaults for storage adapter
+- Updated dependencies [66b13b9]
+  - @supabase/auth-helpers-shared@0.4.0-next.1
+
+## 0.7.0-next.0
+
+### Minor Changes
+
+- 65bf8d4: Add cookie storage adapter per library following a shared storage adapter
+- 65bf8d4: Add full server side support to auth helpers through PKCE
+
+### Patch Changes
+
+- Updated dependencies [65bf8d4]
+- Updated dependencies [65bf8d4]
+  - @supabase/auth-helpers-shared@0.4.0-next.0
 
 ## 0.6.0
 

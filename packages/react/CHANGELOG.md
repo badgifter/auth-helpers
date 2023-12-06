@@ -1,5 +1,31 @@
 # @supabase/auth-helpers-react
 
+## 0.4.2
+
+### Patch Changes
+
+- 4a7bbfe: Update session when updating user
+
+## 0.4.1
+
+### Patch Changes
+
+- 1dc9c9c: fix: Handle initialSession changes in context provider
+
+## 0.4.0
+
+### Minor Changes
+
+- 65bf8d4: Add cookie storage adapter per library following a shared storage adapter
+- 65bf8d4: Add full server side support to auth helpers through PKCE
+
+## 0.4.0-next.0
+
+### Minor Changes
+
+- 65bf8d4: Add cookie storage adapter per library following a shared storage adapter
+- 65bf8d4: Add full server side support to auth helpers through PKCE
+
 ## 0.3.1
 
 ### Patch Changes
